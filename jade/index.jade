@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    title Minipage
+    link(type="text/css", rel="stylesheet", href="assets/css/main.min.css")
+    
+  body
+    main
+      
+      .logo
+        
+        include includes/break.jade
+      form
+        .input-block
+          .input-group.has-content
+            input(type="text")
+            label Name
+          .input-group
+            input(type="text")
+            label Prename
+          .input-group
+            input(type="text")
+            label Company
+          .input-group
+            input(type="submit", value="Send")
+
+      
+    //- Include all JavaScript
+    script(type="text/js", src="assets/js/script.min.js")
+    script(type="text/js", src="assets/js/functions.min.js")
